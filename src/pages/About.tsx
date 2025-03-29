@@ -4,8 +4,8 @@ import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import ParallaxSection from '../components/ui/ParallaxSection';
 import AnimatedText from '../components/ui/AnimatedText';
-import  {Card, CardHeader, CardContent } from '../components/ui/Card';
-
+import  { CardHeader, CardContent } from '../components/ui/Card';
+import { Card } from '../components/ui/Card';
 const About = () => {
   const [isVisible, setIsVisible] = useState({
     team: false,
