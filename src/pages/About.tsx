@@ -6,6 +6,7 @@ import ParallaxSection from '../components/ui/ParallaxSection';
 import AnimatedText from '../components/ui/AnimatedText';
 import  { CardHeader, CardContent } from '../components/ui/Card';
 import { Card } from '../components/ui/Card';
+// import * from '../components/ui/Card'
 const About = () => {
   const [isVisible, setIsVisible] = useState({
     team: false,
