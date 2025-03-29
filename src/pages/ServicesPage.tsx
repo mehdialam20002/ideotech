@@ -14,7 +14,7 @@ const ServicesPage = () => {
     window.scrollTo(0, 0);
     document.title = "Our Services - Ideovent Technologies";
   }, []);
-
+//j
   const services = {
     web: [
       {
