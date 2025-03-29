@@ -9,7 +9,7 @@ const NotFound = () => {
   useEffect(() => {
     document.title = "Page Not Found - Ideovent Technologies";
   }, []);
-
+//k
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
