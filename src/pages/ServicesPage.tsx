@@ -3,7 +3,7 @@ import { useEffect, useState, useRef } from 'react';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import ParallaxSection from '../components/ui/ParallaxSection';
-import {Button} from '../components/ui/button';
+import {Button} from '../components/ui/Button';
 import { Code, PenTool, Globe, ShoppingCart, Monitor, ArrowUpRight, Smartphone, Database, Server } from 'lucide-react';
 
 const ServicesPage = () => {
@@ -14,7 +14,7 @@ const ServicesPage = () => {
     window.scrollTo(0, 0);
     document.title = "Our Services - Ideovent Technologies";
   }, []);
-//j
+
   const services = {
     web: [
       {
